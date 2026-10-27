@@ -1,0 +1,13 @@
+{
+  "name": "atlas-auth",
+  "version": "0.1.0",
+  "description": "Atlas client for C++: OAuth device flow and the REST API. Header-only.",
+  "homepage": "https://atlasauth.net",
+  "license": "MIT",
+  "features": {
+    "curl": {
+      "description": "libcurl transport (atlas/curl_transport.hpp)",
+      "dependencies": ["curl"]
+    }
+  }
+}
